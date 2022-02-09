@@ -4,7 +4,7 @@ int size = 500;
 
 void setup() {
   size(800, 800);
-  frameRate(60);
+  frameRate(10);
 }
 
 void draw() {
