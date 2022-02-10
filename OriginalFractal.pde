@@ -1,6 +1,6 @@
 int x, y;
 int recursions = 3;
-int size = 500;
+int bs = 500;
 
 void setup() {
   size(800, 800);
@@ -14,9 +14,9 @@ void draw() {
   
   //KEYBOARD
   if(keyPressed == true && keyCode == UP) {
-    size += 30;
+    bs += 30;
   } else if (keyPressed == true && keyCode == DOWN) {
-    size -= 30;
+    bs -= 30;
   } 
   
   if(keyPressed == true && (key == 'w' || key == 'W') && recursions < 20) {
