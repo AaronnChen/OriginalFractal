@@ -36,7 +36,7 @@ void draw() {
 }
 
 void fractal(int n) {
-  x = size / n;
+  x = bs / n;
   if(n <= 1) {
     ellipse(400, 400, x, x);
   } else {
